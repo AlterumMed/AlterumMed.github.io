@@ -1,0 +1,78 @@
+/*
+Notes:
+    Color: #ec005f;
+*/
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+a,
+.main-color,
+.box-numbers,
+.form-message,
+.client-name h2,
+.profile-name h4,
+.menu-button:hover,
+.navbar-brand:hover,
+.footer-logo a:hover,
+.mobile-menu ul li a:hover,
+.author-name span:first-child,
+.post-wrapper .post-title a:hover,
+.owl-skills .slide-content:hover .skill-title h2 {
+    color: #ec005f;
+}
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+.btn-nesto,
+.resume-type,
+#more-section,
+.btn.btn-nesto,
+.ns-effect-slide,
+.photostack nav span,
+.feature-box .box-icon,
+.section-title h1:after,
+.table-button a.btn:hover,
+.photostack .item-content a,
+.photostack nav span.current,
+.pricing-table:hover .table-price,
+.portfolio-grid .portfolio-item a,
+.post-wrapper .post-link a > span,
+.portfoliofilter ul li a.btn:hover,
+.portfoliofilter ul li a.btn.selected,
+.pricing-table:hover .table-button a.btn,
+.pricing-table.feature-table .table-price,
+.pricing-table.feature-table .table-button a.btn,
+#owl-testimonials-wrapper .owl-theme .owl-controls .owl-page span {
+    background-color: #ec005f;
+}
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+.btn-nesto:hover,
+.post-wrapper a:hover > span {
+    background-color: #232323;
+}
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+#name.form-error,
+#email.form-error,
+#subject.form-error,
+#message.form-error,
+.pricing-table:hover,
+.resume-wrapper:hover,
+.pricing-table.feature-table,
+#contactform .form-control:hover,
+#contactform .form-control:focus,
+.post-replay .form-control:hover,
+.post-replay .form-control:focus,
+.resume-wrapper:hover .resume-desc,
+.resume-wrapper:hover .resume-title {
+    -webkit-border-color: #ec005f;
+       -moz-border-color: #ec005f;
+         -o-border-color: #ec005f;
+            border-color: #ec005f;
+}
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+#owl-skills-wrapper .owl-theme .owl-controls .owl-page span,
+#owl-resume-wrapper .owl-theme .owl-controls .owl-page span { background: #ec005f; }
+/* ------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------ */
+.owl-skills .skills svg path:last-child { stroke: #ec005f; }

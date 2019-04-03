@@ -1,0 +1,4289 @@
+/* Import Basic Files
+-------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Karma:400,700);
+@import url(../fonts/fontawesome/css/font-awesome.min.css);
+@import url(../fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css);
+@import url(../js/plugins/owl-carousel/owl.carousel.css);
+@import url(../js/plugins/owl-carousel/owl.theme.css);
+@import url(../js/plugins/odometer/odometer-theme-default.css);
+@import url(../js/plugins/fancybox/jquery.fancybox.css);
+@import url(../js/plugins/notification/notification.css);
+@import url(../js/plugins/wow/animate.min.css);
+@import url(../js/plugins/supersized/style.css);
+
+
+/*
+
+
+Template Name: Sponshy
+Description: Responsive HTML5 / CSS3 Resume Template
+Version: 2.0
+Author: NestoLab
+
+
+Notes:
+    Color: #e14d43;
+
+1. General
+    1.1 Main Styles
+    1.2 Anchor
+    1.3 Placeholder
+    1.4 Buttons
+        1.4.1 Main Buttons
+        1.4.2 Alternative Buttons
+    1.5 Section Title
+    1.6 Section Description
+    1.7 Override Fancybox LightBox
+    1.8 Loader
+2. Typography
+    2.1 Headings
+    2.2 Selection Color
+3. Top Content
+    3.1 Wrapper
+    3.2 Overlayer
+    3.3 Slide Menu
+        3.3.1 Wrapper
+        3.3.2 Scroller
+        3.3.3 Container
+    3.4 Profile Wrapper
+        3.4.1 Wrapper
+        3.4.2 Container
+        3.4.3 Image
+        3.4.4 Name
+        3.4.5 Title
+4. Open / Close Menu
+5. Content
+6. Menu
+    6.1 Wrapper
+    6.2 Nav
+    6.3 Navbar Brand ( Logo )
+    6.4 Navbar
+        6.4.1 Wrapper
+        6.4.2 Items
+        6.4.3 Anchor
+        6.4.4 Hover & Current Menu Item
+        6.4.5 Sub Menu
+            6.4.5.1 Wrapper
+            6.4.5.2 List
+            6.4.5.3 Items
+            6.4.5.4 Anchor
+            6.4.5.5 Hover
+    6.5 Menu Button
+    6.6 Mobile Menu
+        6.6.1 Wrapper
+        6.6.2 List
+        6.6.3 Items
+        6.6.4 Anchor
+        6.6.5 Sub Menu
+            6.6.5.1 Wrapper
+            6.6.5.2 List
+            6.6.5.3 Items
+            6.6.5.4 Anchor
+7. Home Section
+    7.1 Wrapper
+        7.1.1 Parallax Image
+        7.1.2 Image Slider
+        7.1.3 Video Baxkground
+    7.2 Overlayer
+    7.3 Container
+        7.3.1 Name
+        7.3.2 Title
+        7.3.3 Button
+8. Home Section
+    8.1 Wrapper
+    8.2 Feature Box
+        8.2.1 Wrapper
+        8.2.2 Icon
+        8.2.3 Content
+            8.2.3.1 Wrapper
+            8.2.3.2 Title
+            8.2.3.3 Description
+        8.2.4 Hover
+9. Skills Section
+    9.1 Wrapper
+    9.2 Overlayer
+    9.3 Skills Slider
+        9.3.1 Wrapper
+        9.3.2 Content
+        9.3.3 Skills Circle
+            9.3.3.1 Wrapper
+            9.3.3.2 Circle
+            9.3.3.3 Value
+    9.3.4 Title
+    9.3.5 Content
+    9.3.6 Navigation
+    9.3.7 Hover
+10. Resume Section
+    10.1 Wrapper
+    10.2 Resume Slider
+        10.2.1 Wrapper
+        10.2.2 Item
+            10.2.2.1 Wrapper
+            10.2.2.2 Image
+            10.2.2.3 Date
+            10.2.2.4 Type
+            10.2.2.5 Title
+            10.2.2.6 Description
+        10.2.3 Navigation
+        10.2.4 Hover
+    10.3 Download Button
+11. Subscribe Section
+    11.1 Wrapper
+    11.2 Overlayer
+    11.3 NewsLetter Form
+        11.3.1 Wrapper
+        11.3.2 Form Group
+        11.3.3 Form Control
+        11.3.4 Button
+        11.3.5 Error / Success Message
+12. Portfolio Section
+    12.1 Wrapper
+    12.2 Container
+    12.3 Portfolio Item
+        12.3.1 Wrapper
+        12.3.2 transitions and perspective
+        12.3.3 Image
+        12.3.4 Figcaption
+            12.3.4.1 Wrapper
+            12.3.4.2 Content
+                12.3.4.2.1 Title
+                12.3.4.2.2 Anchors
+                12.3.4.2.3 Navigation
+        12.3.5 Hover
+    12.4 More Section
+13. Testimonials Section
+    13.1 Wrapper
+    13.2 Overlayer
+    13.3 Testimonials Slider
+        13.3.1 Wrapper
+        13.3.2 Image
+        13.3.3 Name
+        13.3.4 Quote
+        13.3.5 Navigation
+14. Pricing Section
+    14.1 Wrapper
+    14.2 Pricing Table
+        14.2.1 Wrapper
+        14.2.2 Title
+        14.2.3 Icon
+        14.2.4 Price
+            14.2.4.1 Wrapper
+            14.2.4.2 Price Text
+            14.2.4.3 Duration Text
+        14.2.5 Info
+            14.2.5.1 Wrapper
+            14.2.5.2 List
+            14.2.5.3 Items
+        14.2.6 Button
+    14.3 Feature Table
+    14.4 Hover
+15. Numbers Section
+    15.1 Wrapper
+    15.2 Overlayer
+    15.3 Numbers Box
+        15.3.1 Wrapper
+        15.3.2 Icon
+        15.3.3 Numbers
+        15.3.4 Title
+16. Contact Section
+    16.1 Wrapper
+    16.2 Form Control
+    16.3 Textarea
+    16.4 Button
+    16.5 Error / Success Message
+17. Footer Section
+    17.1 Wrapper
+    17.2 Logo
+    17.3 Social Icons
+        17.3.1 Wraper
+        17.3.2 List
+        17.3.3 Anchor
+    17.4 Copyright
+18. Notification Message
+19. Breadcrumb
+20. Page Content
+    20.1 Wrapper
+    20.2 Filter
+        20.2.1 Wrapper
+        20.2.2 List
+        20.2.3 Items
+        20.2.4 Anchor
+        20.2.5 Hover
+    20.3 Grid
+        20.3.1 Wrapper
+        20.3.2 Item
+            20.3.2.1 Wrapper
+            20.3.2.2 Container
+            20.3.2.3 Image
+            20.3.2.4 Content
+                20.3.2.4.1 Wrapper
+                20.3.2.4.2 Title
+                20.3.2.4.3 Anchors
+            20.3.2.5 Hover
+        20.3.3 Button
+21. Single Project
+    21.1 Wrapper
+    21.2 Container
+        21.2.1 Wrapper
+        21.2.2 Project Slider
+        21.2.3 Content
+        21.2.4 Description
+        21.2.5 Title
+        21.2.6 Details
+        21.2.7 Share
+        21.2.7.1 Wrapper
+        21.2.7.2 Anchor
+22. Normal Blog
+    22.1 Wrapper
+    22.2 Post
+        22.2.1 Wrapper
+        22.2.2 Header
+            22.2.2.1 Wrapper
+            22.2.2.2 Image
+            22.2.2.3 Frame
+            22.2.2.4 Post Slider
+        22.2.3 Container
+            22.2.3.1 Wrapper
+            22.2.3.2 Title
+            22.2.3.3 Meta
+            22.2.3.4 Content
+            22.2.3.5 Link
+            22.2.3.6 Post Type
+                22.2.3.6.1 Default
+                22.2.3.6.2 Image
+                22.2.3.6.3 Video
+                22.2.3.6.4 Slider
+            22.2.3.7 Hover
+23. Single Post
+    23.1 Wrapper
+    23.2 Share
+        23.2.1 Wrapper
+        23.2.2 Anchor
+    23.3 Comments
+        23.3.1 Wrapper
+        23.3.2 List
+        23.3.3 Items
+        23.3.4 Avatar
+        23.3.5 Name
+        23.3.6 Replay Button
+    23.4 Replay
+        23.4.1 Title
+        23.4.2 Form Control
+        23.4.3 Textarea
+        23.4.4 Button
+24. Widget
+    24.1 Wrapper
+    24.2 Title
+    24.3 Social Widget
+        24.3.1 List
+        24.3.2 Items
+        24.3.3 Anchor
+        24.3.4 Hover
+    24.4 Dribbble Widget
+        24.4.1 Wrapper
+        24.4.2 List
+        24.4.3 Items
+        24.4.4 Anchor & Image
+    24.5 Flickr Widget
+        24.5.1 Wrapper
+        24.5.2 Items
+        24.5.3 Anchor
+        24.5.4 Image
+        24.5.5 Anchor
+    24.6 Twitter Widget
+        24.6.1 Wrapper
+        24.6.2 Twitter Username
+        24.6.3 List
+        24.6.4 items
+25. Boxed Version
+    25.1 Wrapper
+    25.2 Content
+    25.3 Open / Close Menu
+26. Dark Version
+*/
+
+
+
+
+/* ==========================================================================
+   1. General
+========================================================================== */
+/* 1.1 Main Styles
+-------------------------------------------------------------------------- */
+body {
+    margin: 0;
+    padding: 0;
+    color: #555555;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    -webkit-text-size-adjust: 100%;
+    font: 16px/27px 'Karma', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+.browsehappy { margin: 0.2em 0; background-color: #cccccc; color: #000000; padding: 0.2em 0; }
+.container { overflow: hidden; }
+.main-color { color: #e14d43; }
+
+/* 1.2 Anchor
+-------------------------------------------------------------------------- */
+a {
+    color: #e14d43;
+    cursor: pointer;
+}
+a,
+a > * {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+a:focus,
+a:hover {
+    outline: none;
+    color: #232323;
+    text-decoration: none;
+}
+
+/* 1.3 Placeholder
+-------------------------------------------------------------------------- */
+input,
+textarea { color: #000000; }
+.placeholder { color: #aaaaaa; }
+
+#subscribe-section .form-control::-webkit-input-placeholder {
+    opacity: 1;
+    color: #ffffff;
+}
+#subscribe-section .form-control:-moz-placeholder {
+    opacity: 1;
+    color: #ffffff;
+}
+#subscribe-section .form-control::-moz-placeholder {
+    opacity: 1;
+    color: #ffffff;
+}
+#subscribe-section .form-control:-ms-input-placeholder {
+    opacity: 1;
+    color: #ffffff;
+}
+
+/* 1.4 Buttons
+-------------------------------------------------------------------------- */
+/* 1.4.1 Main Buttons
+-------------------------------------------------------------------------- */
+.btn-nesto,
+.btn.btn-nesto {
+    z-index: 1;
+    outline: none;
+    margin: 0 5px;
+    color: #ffffff;
+    font-weight: 300;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #e14d43;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+         -o-border-radius: 10px;
+            border-radius: 10px;
+
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+
+    -webkit-border: 2px solid transparent;
+       -moz-border: 2px solid transparent;
+         -o-border: 2px solid transparent;
+            border: 2px solid transparent;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.btn-nesto:hover { background-color: #232323; }
+
+/* 1.4.2 Alternative Buttons
+-------------------------------------------------------------------------- */
+.btn-nesto-o,
+.btn.btn-nesto-o {
+    z-index: 1;
+    outline: none;
+    margin: 0 5px;
+    color: #ffffff;
+    font-weight: 300;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+         -o-border-radius: 10px;
+            border-radius: 10px;
+
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+
+    -webkit-border: 2px solid #ffffff;
+       -moz-border: 2px solid #ffffff;
+         -o-border: 2px solid #ffffff;
+            border: 2px solid #ffffff;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.btn-nesto-o:hover {
+    color: #232323;
+    background-color: #ffffff;
+}
+
+/* 1.5 Section Title
+-------------------------------------------------------------------------- */
+.section-title h1 {
+    font-size: 50px;
+    overflow: hidden;
+    line-height: 60px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.section-title h1:after {
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    content: '';
+    width: 100px;
+    margin-left: -50px;
+    position: absolute;
+    background-color: #e14d43;
+}
+.col-md-6 .section-title h1 {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: left;
+    line-height: 60px;
+}
+.col-md-6 .section-title h1:after { display: none; }
+
+/* 1.6 Section Description
+-------------------------------------------------------------------------- */
+.section-desc h3 {
+    font-weight: 300;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+}
+
+/* 1.7 Override Fancybox LightBox
+-------------------------------------------------------------------------- */
+.fancybox-overlay-fixed { z-index: 9999; }
+.fancybox-opened { z-index: 99991; }
+
+/* 1.8 Loader
+-------------------------------------------------------------------------- */
+#loader {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999999;
+    overflow: hidden;
+    background-color: #232323;
+
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+#loader-container {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    margin-top: -25px;
+    text-align: center;
+    position: absolute;
+}
+#loader-container img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+/* ==========================================================================
+   2. Typography
+========================================================================== */
+/* 2.1 Headings
+-------------------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    color: #232323;
+    font-weight: 400;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1 { font-size: 35px; line-height: 40px; }
+h2 { font-size: 30px; line-height: 37px; }
+h3 { font-size: 27px; line-height: 33px; }
+h4 { font-size: 24px; line-height: 30px; font-weight: 300; }
+h5 { font-size: 20px; line-height: 28px; font-weight: 300; }
+h6 { font-size: 17px; line-height: 25px; font-weight: 300; }
+p,
+li {
+    letter-spacing: 0.5px;
+}
+
+/* 2.2 Selection Color
+-------------------------------------------------------------------------- */
+::selection {
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #232323;
+}
+::-webkit-selection {
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #232323;
+}
+::-moz-selection {
+    color: #ffffff;
+    text-shadow: none;
+    background-color: #232323;
+}
+
+
+
+
+/* ==========================================================================
+   3. Top Content
+========================================================================== */
+/* 3.1 Wrapper
+-------------------------------------------------------------------------- */
+#top-content {
+    top: -90px;
+    width: 100%;
+    z-index: -1;
+    height: 120%;
+    left: -250px;
+    position: fixed;
+    background-color: transparent;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 3.2 Overlayer
+-------------------------------------------------------------------------- */
+#top-content-overlayer {
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    opacity: 0.0;
+    z-index: 9993;
+    position: fixed;
+    background-color: #000000;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 3.3 Slide Menu
+-------------------------------------------------------------------------- */
+/* 3.3.1 Wrapper
+-------------------------------------------------------------------------- */
+#slide-menu-wrapper {
+    top: 0;
+    left: 0;
+    content: '';
+    width: 250px;
+    height: 100%;
+    z-index: 9994;
+    overflow: hidden;
+    position: absolute;
+    background-color: #232323;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 3.3.2 Scroller
+-------------------------------------------------------------------------- */
+#slide-menu-scroller {
+    height: 100%;
+    width: 500px;
+    overflow: hidden;
+}
+
+/* 3.3.3 Container
+-------------------------------------------------------------------------- */
+#slide-menu-container {
+    opacity: 0;
+    height: 85%;
+    width: 450px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 100px 200px 0 0;
+
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+
+/* 3.4 Profile Wrapper
+-------------------------------------------------------------------------- */
+/* 3.4.1 Wrapper
+-------------------------------------------------------------------------- */
+#profile-wrapper {
+    top: 0;
+    left: 0;
+    width: 200%;
+    content: '';
+    height: 90px;
+    z-index: 9995;
+    overflow: hidden;
+    position: absolute;
+    background-color: #232323;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+#profile-wrapper:after {
+    bottom: 0;
+    left: 250px;
+    width: 100%;
+    content: '';
+    height: 1px;
+    position: absolute;
+    background-color: #2a2a2a;
+}
+
+/* 3.4.2 Container
+-------------------------------------------------------------------------- */
+#profile-container {
+    opacity: 0;
+    width: 100%;
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+}
+
+/* 3.4.3 Image
+-------------------------------------------------------------------------- */
+.profile-image {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.profile-image img {
+    width: 100%;
+    display: block;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+
+/* 3.4.4 Name
+-------------------------------------------------------------------------- */
+.profile-name,
+.profile-title {
+    float: left;
+    display: inline-block;
+}
+.profile-name h4 {
+    color: #e14d43;
+    font-weight: 400;
+    line-height: 60px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+/* 3.4.5 Title
+-------------------------------------------------------------------------- */
+.profile-title h5 {
+    color: #ffffff;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+
+
+
+
+/* ==========================================================================
+   4. Open / Close Menu
+========================================================================== */
+body.over-menu {
+    height: 100%;
+    overflow: hidden;
+}
+body.show-menu #menu-wrapper {
+    top: 90px;
+    left: 250px;
+}
+body.show-menu #content-wrapper {
+    margin-top: 90px;
+    margin-left: 250px;
+}
+body.show-menu #top-content {
+    top: 0;
+    left: 0;
+    z-index: 9994;
+}
+body.show-menu #top-content-overlayer { opacity: 0.3; }
+body.show-menu #profile-container,
+body.show-menu #slide-menu-container {
+    opacity: 1;
+}
+
+
+
+
+/* ==========================================================================
+   5. Content
+========================================================================== */
+#content-wrapper {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+
+
+
+/* ==========================================================================
+   6. Menu
+========================================================================== */
+/* 6.1 Wrapper
+-------------------------------------------------------------------------- */
+#menu-wrapper {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9992;
+    display: block;
+    position: fixed;
+    text-align: center;
+    background-color: transparent;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+#menu-wrapper.menubgC { background-color: #2a2a2a; }
+#menu-wrapper .container { overflow: visible; }
+
+/* 6.2 Nav
+-------------------------------------------------------------------------- */
+nav.navbar-collapse.collapse {
+    float: right;
+    vertical-align: top;
+    padding-right: 40px;
+    display: inline-block !important;
+}
+.navbar-collapse {
+    -webkit-border: 0;
+       -moz-border: 0;
+         -o-border: 0;
+            border: 0;
+
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+}
+
+/* 6.3 Navbar Brand ( Logo )
+-------------------------------------------------------------------------- */
+.navbar-brand,
+.navbar-brand:focus {
+    padding: 0;
+    height: 70px;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.navbar-brand img {
+    float: left;
+    margin-top: 10px;
+}
+.navbar-brand:hover { color: #e14d43; }
+
+/* 6.4 Navbar
+-------------------------------------------------------------------------- */
+/* 6.4.1 Wrapper
+-------------------------------------------------------------------------- */
+.navbar {
+    margin: 0;
+    min-height: 60px;
+
+    -webkit-border: 0;
+       -moz-border: 0;
+         -o-border: 0;
+            border: 0;
+
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+         -o-border-radius: 0;
+            border-radius: 0;
+}
+
+/* 6.4.2 Items
+-------------------------------------------------------------------------- */
+.navbar-nav > li {
+    padding: 0 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.navbar-nav > li:first-child { margin-left: 0; }
+
+/* 6.4.3 Anchor
+-------------------------------------------------------------------------- */
+.navbar-nav > li > a {
+    color: #ffffff;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    text-transform: capitalize;
+    -webkit-transform: translateZ(0);
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+}
+.navbar-nav > li > a:after,
+.navbar-nav > li > a:before,
+.navbar-nav > li.active a:after,
+.navbar-nav > li.active a:before {
+    top: 0;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 70px;
+    position: absolute;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.navbar-nav > li > a:before,
+.navbar-nav > li.active a:before {
+    left: 0;
+    content: '[';
+}
+.navbar-nav > li > a:after,
+.navbar-nav > li.active a:after {
+    right: 0;
+    content: ']';
+}
+.navbar-nav > li:last-child > a:after,
+.navbar-nav > li:last-child > a:before {
+    display: none;
+}
+.navbar-nav > li > a:hover:before,
+.navbar-nav > li.active a:before {
+    opacity: 1;
+    left: -10px;
+}
+.navbar-nav > li > a:hover:after,
+.navbar-nav > li.active a:after {
+    opacity: 1;
+    right: -10px;
+}
+
+/* 6.4.4 Hover & Current Menu Item
+-------------------------------------------------------------------------- */
+.nav > li > a:hover,
+.nav > li > a:focus,
+.navbar-nav > li.active a {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+/* 6.4.5 Sub Menu
+-------------------------------------------------------------------------- */
+/* 6.4.5.1 Wrapper
+-------------------------------------------------------------------------- */
+.category-list {
+    position: relative !important;
+    padding-right: 15px !important;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.category-list > a:first-child:after {
+    top: 0;
+    opacity: 1;
+    right: -15px;
+    color: #ffffff;
+    font-size: 14px;
+    content: '\f107';
+    line-height: 70px;
+    position: absolute;
+    display: block !important;
+    font-family: 'FontAwesome';
+}
+.category-list > a:first-child:hover:after { right: -15px; }
+.category-list:hover { overflow: visible; }
+
+/* 6.4.5.2 List
+-------------------------------------------------------------------------- */
+.category-list ul {
+    left: 0;
+    top: 110%;
+    margin: 0;
+    height: 0;
+    opacity: 1;
+    padding: 0;
+    text-align: left;
+    min-width: 200px;
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+    background-color: #232323;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.category-list ul:after {
+    width: 0;
+    height: 0;
+    top: -9px;
+    left: 10px;
+    content: '';
+    position: absolute;
+
+    -webkit-border-bottom: 10px solid #232323;
+       -moz-border-bottom: 10px solid #232323;
+         -o-border-bottom: 10px solid #232323;
+            border-bottom: 10px solid #232323;
+
+    -webkit-border-left: 10px solid transparent;
+       -moz-border-left: 10px solid transparent;
+         -o-border-left: 10px solid transparent;
+            border-left: 10px solid transparent;
+
+    -webkit-border-right: 10px solid transparent;
+       -moz-border-right: 10px solid transparent;
+         -o-border-right: 10px solid transparent;
+            border-right: 10px solid transparent;
+}
+.nav li.category-list:last-child ul {
+    right: 0;
+    left: auto;
+}
+.nav li.category-list:last-child ul:after {
+    left: auto;
+    right: 10px;
+}
+
+/* 6.4.5.3 Items
+-------------------------------------------------------------------------- */
+.category-list ul li {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.navbar-nav > li:hover > a { color: #ffffff; }
+
+/* 6.4.5.4 Anchor
+-------------------------------------------------------------------------- */
+.category-list ul li a {
+    z-index: 1;
+    color: #888888;
+    display: block;
+    font-size: 16px;
+    overflow: hidden;
+    font-weight: 300;
+    padding: 7px 12px;
+    position: relative;
+    background-color: #232323;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.category-list ul li:first-child a { margin-top: 14px; }
+.category-list ul li:last-child a { margin-bottom: 14px; }
+
+/* 6.4.5.5 Hover
+-------------------------------------------------------------------------- */
+.category-list ul li a:hover {
+    color: #ffffff;
+    background-color: #2a2a2a;
+}
+.category-list:hover ul {
+    top: 100%;
+    opacity: 1;
+    height: auto;
+    overflow: visible;
+}
+
+/* 6.5 Menu Button
+-------------------------------------------------------------------------- */
+.menu-button {
+    padding: 0;
+    float: right;
+    height: 20px;
+    outline: none;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: top;
+    margin: 25px 0 25px 0;
+    background-color: transparent;
+
+    -webkit-border: none;
+       -moz-border: none;
+         -o-border: none;
+            border: none;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.menu-button i { line-height: 20px; }
+.menu-button:hover { color: #e14d43; }
+
+/* 6.6 Mobile Menu
+-------------------------------------------------------------------------- */
+/* 6.6.1 Wrapper
+-------------------------------------------------------------------------- */
+.mobile-menu {
+    width: 100%;
+    display: none;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    padding: 0 15px 15px;
+}
+.projects .mobile-menu,
+.normal-blog .mobile-menu,
+.single-post .mobile-menu,
+.single-project .mobile-menu {
+    display: none !important;
+}
+
+/* 6.6.2 List
+-------------------------------------------------------------------------- */
+.mobile-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 6.6.3 Items
+-------------------------------------------------------------------------- */
+.mobile-menu ul li {
+    width: 100%;
+    display: block;
+}
+
+/* 6.6.4 Anchor
+-------------------------------------------------------------------------- */
+.mobile-menu ul li a {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 7px;
+    padding-bottom: 5px;
+
+    -webkit-border-bottom: 1px solid #2a2a2a;
+       -moz-border-bottom: 1px solid #2a2a2a;
+         -o-border-bottom: 1px solid #2a2a2a;
+            border-bottom: 1px solid #2a2a2a;
+}
+.mobile-menu ul li a:hover { color: #e14d43; }
+
+/* 6.6.5 Sub Menu
+-------------------------------------------------------------------------- */
+/* 6.6.5.1 Wrapper
+-------------------------------------------------------------------------- */
+.mobile-menu li.category-list {
+    margin-bottom: 7px;
+    padding-bottom: 5px;
+
+    -webkit-border-bottom: 1px solid #2a2a2a;
+       -moz-border-bottom: 1px solid #2a2a2a;
+         -o-border-bottom: 1px solid #2a2a2a;
+            border-bottom: 1px solid #2a2a2a;
+}
+
+/* 6.6.5.2 List
+-------------------------------------------------------------------------- */
+.mobile-menu li.category-list ul {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    background-color: #232323;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 6.6.5.3 Items
+-------------------------------------------------------------------------- */
+.mobile-menu li.category-list ul li:last-child { margin-bottom: 0; }
+
+/* 6.6.5.4 Anchor
+-------------------------------------------------------------------------- */
+.mobile-menu ul li.category-list a {
+    -webkit-border-bottom: 0;
+       -moz-border-bottom: 0;
+         -o-border-bottom: 0;
+            border-bottom: 0;
+}
+.mobile-menu ul li.category-list > a:first-child { margin-bottom: 0; }
+.mobile-menu ul li.category-list > a:first-child:after {
+    top: 0;
+    right: 0;
+    line-height: 27px;
+}
+.mobile-menu li.category-list ul li a {
+    font-size: 15px;
+    margin: 0 0 5px 0;
+    position: relative;
+    padding: 0 0 0 15px;
+    background-color: #232323;
+}
+.mobile-menu li.category-list ul li a:before {
+    top: 0;
+    left: 0;
+    content: '-';
+    color: #888888;
+    font-size: 15px;
+    position: absolute;
+}
+
+
+
+
+/* ==========================================================================
+   7. Home Section
+========================================================================== */
+/* 7.1 Wrapper
+-------------------------------------------------------------------------- */
+#home-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+}
+#alternative-home-section {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../images/background/alternativehomebg.jpg);
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+/* 7.1.1 Parallax Image
+-------------------------------------------------------------------------- */
+.parallax-image #home-section {
+    padding: 0;
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../images/background/homebg.jpg);
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+/* 7.1.2 Image Slider
+-------------------------------------------------------------------------- */
+.image-slider #home-section {
+    z-index: 2;
+    background-color: transparent;
+}
+.image-slider #supersized { z-index: 1; }
+.image-slider #supersized img {
+    top: 0 !important;
+    left: 0 !important;
+}
+
+/* 7.1.3 Video Baxkground
+-------------------------------------------------------------------------- */
+.video-background #home-section {
+    z-index: 2;
+    background-color: transparent;
+}
+.video-background #okplayer-mask { z-index: 1; }
+
+/* 7.2 Overlayer
+-------------------------------------------------------------------------- */
+#home-section-overlayer,
+#alternative-home-section-overlayer {
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    background-color: #000000;
+}
+
+/* 7.3 Container
+-------------------------------------------------------------------------- */
+#home-section-container,
+#alternative-home-section-container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+#alternative-home-section-container { padding: 150px 0 135px; }
+
+/* 7.3.1 Name
+-------------------------------------------------------------------------- */
+.personal-name h1 {
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 90px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/* 7.3.2 Title
+-------------------------------------------------------------------------- */
+.personal-title h4 {
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.typed-cursor {
+    opacity: 1;
+    font-weight: 300;
+
+    -webkit-animation: blink 0.7s infinite;
+       -moz-animation: blink 0.7s infinite;
+        -ms-animation: blink 0.7s infinite;
+         -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+}
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* 7.3.3 Button
+-------------------------------------------------------------------------- */
+.personal-button {
+    width: 100%;
+    display: block;
+}
+
+
+
+
+/* ==========================================================================
+   8. Home Section
+========================================================================== */
+/* 8.1 Wrapper
+-------------------------------------------------------------------------- */
+#services-section {
+    width: 100%;
+    overflow: hidden;
+    padding: 90px 0 45px;
+    background-color: #ffffff;
+}
+
+/* 8.2 Feature Box
+-------------------------------------------------------------------------- */
+/* 8.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.feature-box {
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto 40px;
+}
+
+/* 8.2.2 Icon
+-------------------------------------------------------------------------- */
+.feature-box .box-icon {
+    float: left;
+    width: 90px;
+    height: 90px;
+    color: #ffffff;
+    font-size: 45px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    margin: 0 20px 15px 0;
+    background-color: #e14d43;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.feature-box .box-icon i { line-height: 91px; }
+
+/* 8.2.3 Content
+-------------------------------------------------------------------------- */
+/* 8.2.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.box-content { overflow: hidden; }
+
+/* 8.2.3.2 Title
+-------------------------------------------------------------------------- */
+.feature-box .box-title {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    text-transform: capitalize;
+}
+
+/* 8.2.3.3 Description
+-------------------------------------------------------------------------- */
+.box-desc {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* 8.2.4 Hover
+-------------------------------------------------------------------------- */
+.feature-box:hover .box-icon { background-color: #232323; }
+
+
+
+
+/* ==========================================================================
+   9. Skills Section
+========================================================================== */
+/* 9.1 Wrapper
+-------------------------------------------------------------------------- */
+#skills-section {
+    width: 100%;
+    background-color: #ffffff;
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../images/background/skillsbg.jpg);
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+/* 9.2 Overlayer
+-------------------------------------------------------------------------- */
+#skills-section-overlayer {
+    width: 100%;
+    position: relative;
+    padding: 110px 0 95px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* 9.3 Skills Slider
+-------------------------------------------------------------------------- */
+/* 9.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.owl-skills,
+#owl-skills-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+/* 9.3.2 Content
+-------------------------------------------------------------------------- */
+.owl-skills .slide-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 9.3.3 Skills Circle
+-------------------------------------------------------------------------- */
+/* 9.3.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.skills {
+    overflow: hidden;
+    min-height: 177px;
+    margin: 0 auto 25px;
+}
+
+/* 9.3.3.2 Circle
+-------------------------------------------------------------------------- */
+.owl-skills .skills svg path:last-child { stroke: #e14d43; }
+.owl-skills .skills svg path:first-child { stroke: transparent; }
+
+/* 9.3.3.3 Value
+-------------------------------------------------------------------------- */
+.circles-text {
+    color: #ffffff;
+    font-weight: 400;
+    position: relative;
+    width: 170px !important;
+    height: 170px !important;
+    font-size: 50px !important;
+    line-height: 170px !important;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.circles-text:after {
+    top: 0;
+    right: 35px;
+    content: '%';
+    font-weight: 400;
+    position: absolute;
+    font-size: 26px !important;
+    line-height: 185px !important;
+}
+
+/* 9.3.4 Title
+-------------------------------------------------------------------------- */
+.owl-skills .skill-title h2 {
+    width: 155px;
+    color: #ffffff;
+    margin: 0 auto 15px;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 9.3.5 Content
+-------------------------------------------------------------------------- */
+.owl-skills .skill-content {
+    color: #ffffff;
+    padding: 0 15px;
+}
+
+/* 9.3.6 Navigation
+-------------------------------------------------------------------------- */
+#owl-skills-wrapper .owl-theme .owl-controls .owl-page span { background: #e14d43; }
+
+/* 9.3.7 Hover
+-------------------------------------------------------------------------- */
+.owl-skills .slide-content:hover .skill-title h2 { color: #e14d43; }
+
+
+
+
+/* ==========================================================================
+   10. Resume Section
+========================================================================== */
+/* 10.1 Wrapper
+-------------------------------------------------------------------------- */
+#resume-section {
+    width: 100%;
+    overflow: hidden;
+    padding: 90px 0 100px;
+    background-color: #ffffff;
+}
+
+/* 10.2 Resume Slider
+-------------------------------------------------------------------------- */
+/* 10.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.owl-resume,
+#owl-resume-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#owl-resume-wrapper { margin: 0 auto 50px; }
+
+/* 10.2.2 Item
+-------------------------------------------------------------------------- */
+/* 10.2.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.owl-resume .slide-content { padding: 0 15px; }
+
+.resume-wrapper {
+    width: 100%;
+    overflow: hidden;
+
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+         -o-border-radius: 10px;
+            border-radius: 10px;
+
+    -webkit-border-bottom: 2px solid #232323;
+       -moz-border-bottom: 2px solid #232323;
+         -o-border-bottom: 2px solid #232323;
+            border-bottom: 2px solid #232323;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 10.2.2.2 Image
+-------------------------------------------------------------------------- */
+.resume-image {
+    width: 100%;
+    display: block;
+    position: relative;
+
+    -webkit-border-radius: 10px 10px 0 0;
+       -moz-border-radius: 10px 10px 0 0;
+         -o-border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 0 0;
+}
+.resume-image:after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000000;
+
+    -webkit-border-radius: 10px 10px 0 0;
+       -moz-border-radius: 10px 10px 0 0;
+         -o-border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 0 0;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.resume-image img {
+    width: 100%;
+    display: block;
+
+    -webkit-border-radius: 10px 10px 0 0;
+       -moz-border-radius: 10px 10px 0 0;
+         -o-border-radius: 10px 10px 0 0;
+            border-radius: 10px 10px 0 0;
+}
+
+/* 10.2.2.3 Date
+-------------------------------------------------------------------------- */
+.resume-date {
+    left: 0;
+    top: 50%;
+    z-index: 2;
+    opacity: 0;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 40px;
+    font-weight: 300;
+    overflow: hidden;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 10.2.2.4 Type
+-------------------------------------------------------------------------- */
+.resume-type {
+    z-index: 2;
+    width: 80px;
+    height: 80px;
+    display: block;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+    position: relative;
+    margin: -40px auto 20px;
+    background-color: #e14d43;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.resume-type i { line-height: 80px; }
+
+/* 10.2.2.5 Title
+-------------------------------------------------------------------------- */
+.resume-title {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 60px 15px 0;
+    margin: -60px auto 15px;
+    text-transform: capitalize;
+
+    -webkit-border-left: 2px solid #232323;
+       -moz-border-left: 2px solid #232323;
+         -o-border-left: 2px solid #232323;
+            border-left: 2px solid #232323;
+
+    -webkit-border-right: 2px solid #232323;
+       -moz-border-right: 2px solid #232323;
+         -o-border-right: 2px solid #232323;
+            border-right: 2px solid #232323;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.resume-title h4 { font-weight: 400; }
+
+/* 10.2.2.6 Description
+-------------------------------------------------------------------------- */
+.resume-desc {
+    width: 100%;
+    display: block;
+    margin: -15px auto 0;
+    padding: 15px 15px 5px;
+
+    -webkit-border-radius: 0 0 10px 10px;
+       -moz-border-radius: 0 0 10px 10px;
+         -o-border-radius: 0 0 10px 10px;
+            border-radius: 0 0 10px 10px;
+
+    -webkit-border-left: 2px solid #232323;
+       -moz-border-left: 2px solid #232323;
+         -o-border-left: 2px solid #232323;
+            border-left: 2px solid #232323;
+
+    -webkit-border-right: 2px solid #232323;
+       -moz-border-right: 2px solid #232323;
+         -o-border-right: 2px solid #232323;
+            border-right: 2px solid #232323;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 10.2.3 Navigation
+-------------------------------------------------------------------------- */
+#owl-resume-wrapper .owl-theme .owl-controls .owl-page span { background: #e14d43; }
+
+/* 10.2.4 Hover
+-------------------------------------------------------------------------- */
+.resume-wrapper:hover .resume-date {
+    opacity: 1;
+    margin-top: -25px;
+}
+.resume-wrapper:hover .resume-image:after { opacity: 0.7; }
+.resume-wrapper:hover,
+.resume-wrapper:hover .resume-title,
+.resume-wrapper:hover .resume-desc {
+    -webkit-border-color: #e14d43;
+       -moz-border-color: #e14d43;
+         -o-border-color: #e14d43;
+            border-color: #e14d43;
+}
+.resume-wrapper:hover .resume-type { background-color: #232323; }
+
+/* 10.3 Download Button
+-------------------------------------------------------------------------- */
+.download-resume {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+/* ==========================================================================
+   11. Subscribe Section
+========================================================================== */
+/* 11.1 Wrapper
+-------------------------------------------------------------------------- */
+#subscribe-section {
+    width: 100%;
+    background-color: #ffffff;
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../images/background/subscribebg.jpg);
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+/* 11.2 Overlayer
+-------------------------------------------------------------------------- */
+#subscribe-section-overlayer {
+    width: 100%;
+    position: relative;
+    padding: 150px 0 90px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* 11.3 NewsLetter Form
+-------------------------------------------------------------------------- */
+/* 11.3.1 Wrapper
+-------------------------------------------------------------------------- */
+#newsletter-form {
+    width: 100%;
+    margin-top: 2px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* 11.3.2 Form Group
+-------------------------------------------------------------------------- */
+.form-group {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 11.3.3 Form Control
+-------------------------------------------------------------------------- */
+#newsletter-form .form-control {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 6px 160px 6px 12px;
+    background-color: transparent;
+
+    -webkit-border: 0;
+       -moz-border: 0;
+         -o-border: 0;
+            border: 0;
+
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+        -ms-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+
+    -webkit-appearance: none;
+       -moz-appearance: none;
+        -ms-appearance: none;
+         -o-appearance: none;
+            appearance: none;
+
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+         -o-border-radius: 10px;
+            border-radius: 10px;
+
+    -webkit-border: 2px solid #ffffff;
+       -moz-border: 2px solid #ffffff;
+         -o-border: 2px solid #ffffff;
+            border: 2px solid #ffffff;
+}
+#newsletter-form .form-control:hover,
+#newsletter-form .form-control:focus {
+    -webkit-border: 2px solid #ffffff;
+       -moz-border: 2px solid #ffffff;
+         -o-border: 2px solid #ffffff;
+            border: 2px solid #ffffff;
+}
+
+/* 11.3.4 Button
+-------------------------------------------------------------------------- */
+#newsletter-form button {
+    top: 0;
+    right: 0;
+    margin: 0;
+    line-height: 26px;
+    position: absolute;
+}
+
+/* 11.3.5 Error / Success Message
+-------------------------------------------------------------------------- */
+p.nesto-response {
+    margin: 0;
+    left: 15px;
+    width: 100%;
+    bottom: -20px;
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+}
+
+
+
+
+/* ==========================================================================
+   12. Portfolio Section
+========================================================================== */
+/* 12.1 Wrapper
+-------------------------------------------------------------------------- */
+#portfolio-section {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* 12.2 Container
+-------------------------------------------------------------------------- */
+.photostack {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;
+}
+.js .photostack { height: 580px; }
+.photostack > div {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* 12.3 Portfolio Item
+-------------------------------------------------------------------------- */
+/* 12.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.photostack figure {
+    padding: 0;
+    margin: 5px;
+    width: 320px;
+    height: 320px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.photostack figure:after {
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    background-color: #000000;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.js .photostack figure {
+    margin: 0;
+    display: block;
+    position: absolute;
+}
+.no-js .photostack figure:nth-child(3n) {
+    -webkit-transform: translateX(-10%) rotate(5deg);
+        -ms-transform: translateX(-10%) rotate(5deg);
+       -moz-transform: translateX(-10%) rotate(5deg);
+         -o-transform: translateX(-10%) rotate(5deg);
+            transform: translateX(-10%) rotate(5deg);
+}
+.no-js .photostack figure:nth-child(3n-2) {
+    -webkit-transform: translateY(10%) rotate(-3deg);
+        -ms-transform: translateY(10%) rotate(-3deg);
+       -moz-transform: translateY(10%) rotate(-3deg);
+         -o-transform: translateY(10%) rotate(-3deg);
+            transform: translateY(10%) rotate(-3deg);
+}
+.photostack figure.photostack-current:after { display: none; }
+
+/* 12.3.2 transitions and perspective
+-------------------------------------------------------------------------- */
+.photostack-transition figure {
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+        -ms-transition: -ms-transform 0.6s ease-in-out;
+       -moz-transition: -moz-transform 0.6s ease-in-out;
+         -o-transition: -o-transform 0.6s ease-in-out;
+            transition: transform 0.6s ease-in-out;
+}
+.photostack-perspective {
+    -webkit-perspective: 1800px;
+        -ms-perspective: 1800px;
+       -moz-perspective: 1800px;
+         -o-perspective: 1800px;
+            perspective: 1800px;
+}
+.photostack-perspective > div,
+.photostack-perspective figure {
+    -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+         -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+}
+.photostack-perspective figure,
+.photostack-perspective figure div {
+	-webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+.no-csstransformspreserve3d figure.photostack-showback .photostack-back { display: block; }
+
+/* 12.3.3 Image
+-------------------------------------------------------------------------- */
+.photostack figure .item-image {
+    width: 100%;
+    outline: none;
+    display: block;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.photostack figure .item-image img {
+    width: 100%;
+    display: block;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+
+/* 12.3.4 Figcaption
+-------------------------------------------------------------------------- */
+/* 12.3.4.1 Wrapper
+-------------------------------------------------------------------------- */
+.photostack figcaption {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: transparent;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+
+/* 12.3.4.2 Content
+-------------------------------------------------------------------------- */
+.photostack .item-content {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 12.3.4.2.1 Title
+-------------------------------------------------------------------------- */
+.photostack .item-content h4 {
+    left: 0;
+    top: 50%;
+    z-index: 1;
+    width: 100%;
+    color: #ffffff;
+    line-height: 60px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 12.3.4.2.2 Anchors
+-------------------------------------------------------------------------- */
+.photostack .item-content .item-anchors {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: absolute;
+}
+.photostack .item-content a {
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    background-color: #e14d43;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.photostack .item-content a i { line-height: 50px; }
+.photostack .item-content a:first-child {
+    top: 0;
+    left: 50%;
+    position: absolute;
+    margin-left: -25px;
+}
+.photostack .item-content a:last-child {
+    top: 0;
+    right: 50%;
+    position: absolute;
+    margin-right: -25px;
+}
+
+/* 12.3.4.2.3 Navigation
+-------------------------------------------------------------------------- */
+.photostack nav {
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    bottom: 30px;
+    text-align: center;
+    position: absolute;
+
+    -webkit-transition: opacity 0.3s;
+        -ms-transition: opacity 0.3s;
+       -moz-transition: opacity 0.3s;
+         -o-transition: opacity 0.3s;
+            transition: opacity 0.3s;
+}
+.photostack nav span {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    background-color: #e14d43;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+
+    -webkit-transition: -webkit-transform 0.6s ease-in-out, background 0.3s;
+        -ms-transition: -ms-transform 0.6s ease-in-out, background 0.3s;
+       -moz-transition: -moz-transform 0.6s ease-in-out, background 0.3s;
+         -o-transition: -o-transform 0.6s ease-in-out, background 0.3s;
+            transition: transform 0.6s ease-in-out, background 0.3s;
+
+    -webkit-transform: scale(0.48);
+        -ms-transform: scale(0.48);
+       -moz-transform: scale(0.48);
+         -o-transform: scale(0.48);
+            transform: scale(0.48);
+}
+.photostack nav span:last-child { margin-right: 0; }
+.photostack nav span.current {
+	background-color: #e14d43;
+
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+       -moz-transform: scale(1);
+         -o-transform: scale(1);
+            transform: scale(1);
+}
+
+/* 12.3.5 Hover
+-------------------------------------------------------------------------- */
+.photostack .item-content:hover { opacity: 1; }
+.photostack .item-content:hover h4 { margin-top: -60px; }
+.photostack .item-content a:hover { background-color: #232323; }
+.photostack .item-content:hover a:first-child { margin-left: -60px; }
+.photostack .item-content:hover a:last-child { margin-right: -60px; }
+
+/* 12.4 More Section
+-------------------------------------------------------------------------- */
+#more-section {
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0 0;
+    background-color: #e14d43;
+}
+
+
+
+
+/* ==========================================================================
+   13. Testimonials Section
+========================================================================== */
+/* 13.1 Wrapper
+-------------------------------------------------------------------------- */
+#testimonials-section {
+    width: 100%;
+    background-color: #ffffff;
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../images/background/testimonialsbg.jpg);
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+/* 13.2 Overlayer
+-------------------------------------------------------------------------- */
+#testimonials-section-overlayer {
+    width: 100%;
+    position: relative;
+    padding: 110px 0 95px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* 13.3 Testimonials Slider
+-------------------------------------------------------------------------- */
+/* 13.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.owl-testimonials,
+#owl-testimonials-wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 960px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+/* 13.3.2 Image
+-------------------------------------------------------------------------- */
+.owl-testimonials .client-img {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 auto 25px;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.owl-testimonials .client-img img {
+    width: 100%;
+    display: block;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+
+/* 13.3.3 Name
+-------------------------------------------------------------------------- */
+.client-name { margin: 0 auto 35px; }
+.client-name h2 {
+    color: #e14d43;
+    text-transform: capitalize;
+}
+
+/* 13.3.4 Quote
+-------------------------------------------------------------------------- */
+.owl-testimonials .client-quote {
+    width: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 20px;
+}
+
+/* 13.3.5 Navigation
+-------------------------------------------------------------------------- */
+#owl-testimonials-wrapper .owl-theme .owl-controls .owl-page span { background: #e14d43; }
+
+
+
+
+/* ==========================================================================
+   14. Pricing Section
+========================================================================== */
+/* 14.1 Wrapper
+-------------------------------------------------------------------------- */
+#pricing-section {
+    width: 100%;
+    overflow: hidden;
+    padding: 90px 0 80px;
+    background-color: #ffffff;
+}
+
+/* 14.2 Pricing Table
+-------------------------------------------------------------------------- */
+/* 14.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.pricing-table {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    margin: 0 auto 30px;
+
+    -webkit-border-radius: 12px;
+       -moz-border-radius: 12px;
+         -o-border-radius: 12px;
+            border-radius: 12px;
+
+    -webkit-border: 2px solid #232323;
+       -moz-border: 2px solid #232323;
+         -o-border: 2px solid #232323;
+            border: 2px solid #232323;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 14.2.2 Title
+-------------------------------------------------------------------------- */
+.pricing-table .table-title h3 {
+    text-align: center;
+    padding: 25px 12px 20px;
+    text-transform: capitalize;
+}
+
+/* 14.2.3 Icon
+-------------------------------------------------------------------------- */
+.pricing-table .table-icon {
+    color: #232323;
+    font-size: 50px;
+    text-align: center;
+    padding: 0 12px 25px;
+    background-color: #ffffff;
+}
+.pricing-table .table-icon i { line-height: 50px; }
+
+/* 14.2.4 Price
+-------------------------------------------------------------------------- */
+/* 14.2.4.1 Wrapper
+-------------------------------------------------------------------------- */
+.pricing-table .table-price {
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    display: block;
+    text-align: center;
+    background-color: #232323;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 14.2.4.2 Price Text
+-------------------------------------------------------------------------- */
+.pricing-table .table-price span.price {
+    color: #ffffff;
+    font-size: 42px;
+    line-height: 80px;
+    display: inline-block;
+}
+
+/* 14.2.4.3 Duration Text
+-------------------------------------------------------------------------- */
+.pricing-table .table-price span.duration {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 60px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+/* 14.2.5 Info
+-------------------------------------------------------------------------- */
+/* 14.2.5.1 Wrapper
+-------------------------------------------------------------------------- */
+.pricing-table .table-info {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 30px 10px 0;
+    text-transform: capitalize;
+}
+
+/* 14.2.5.2 List
+-------------------------------------------------------------------------- */
+.pricing-table .table-info ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+/* 14.2.5.3 Items
+-------------------------------------------------------------------------- */
+.pricing-table .table-info ul li {
+    padding: 0;
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0 auto 10px;
+}
+.pricing-table .table-info ul li:last-child { margin-bottom: 0; }
+
+/* 14.2.6 Button
+-------------------------------------------------------------------------- */
+.table-button {
+    width: 100%;
+    display: block;
+    padding: 20px 0 30px;
+}
+
+.table-button a.btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #232323;
+}
+.table-button a.btn:hover { background-color: #e14d43; }
+
+/* 14.3 Feature Table
+-------------------------------------------------------------------------- */
+.pricing-table.feature-table {
+    -webkit-border-color: #e14d43;
+       -moz-border-color: #e14d43;
+         -o-border-color: #e14d43;
+            border-color: #e14d43;
+}
+.pricing-table.feature-table .table-price,
+.pricing-table.feature-table .table-button a.btn {
+    background-color: #e14d43;
+}
+
+/* 14.4 Hover
+-------------------------------------------------------------------------- */
+.pricing-table:hover {
+    -webkit-border-color: #e14d43;
+       -moz-border-color: #e14d43;
+         -o-border-color: #e14d43;
+            border-color: #e14d43;
+}
+.pricing-table:hover .table-button a.btn:hover,
+.pricing-table.feature-table .table-button a.btn:hover {
+    background-color: #232323;
+}
+.pricing-table:hover .table-price,
+.pricing-table:hover .table-button a.btn {
+    background-color: #e14d43;
+}
+
+
+
+
+/* ==========================================================================
+   15. Numbers Section
+========================================================================== */
+/* 15.1 Wrapper
+-------------------------------------------------------------------------- */
+#numbers-section {
+    width: 100%;
+    background-color: #ffffff;
+
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../images/background/numbersbg.jpg);
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+/* 15.2 Overlayer
+-------------------------------------------------------------------------- */
+#numbers-section-overlayer {
+    width: 100%;
+    position: relative;
+    padding: 100px 0 45px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* 15.3 Numbers Box
+-------------------------------------------------------------------------- */
+/* 15.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.numbers {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* 15.3.2 Icon
+-------------------------------------------------------------------------- */
+.box-icon {
+    color: #ffffff;
+    font-size: 55px;
+    margin-bottom: 35px;
+}
+.box-icon i { line-height: 55px; }
+
+/* 15.3.3 Numbers
+-------------------------------------------------------------------------- */
+.box-numbers {
+    color: #e14d43;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.odometer.odometer-auto-theme,
+.odometer.odometer-theme-default {
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* 15.3.4 Title
+-------------------------------------------------------------------------- */
+.box-title h2 {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+
+
+
+/* ==========================================================================
+   16. Contact Section
+========================================================================== */
+/* 16.1 Wrapper
+-------------------------------------------------------------------------- */
+#contact-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 100px 0 45px;
+    background-color: #ffffff;
+}
+
+/* 16.2 Form Control
+-------------------------------------------------------------------------- */
+#contactform .form-control {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    color: #232323;
+    padding: 6px 16px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+        -ms-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+
+    -webkit-appearance: none;
+	   -moz-appearance: none;
+        -ms-appearance: none;
+         -o-appearance: none;
+            appearance: none;
+
+    -webkit-border-radius: 12px;
+       -moz-border-radius: 12px;
+         -o-border-radius: 12px;
+            border-radius: 12px;
+
+    -webkit-border: 2px solid #232323;
+       -moz-border: 2px solid #232323;
+         -o-border: 2px solid #232323;
+            border: 2px solid #232323;
+}
+#contactform .form-control:hover,
+#contactform .form-control:focus {
+    -webkit-border-color: #e14d43;
+       -moz-border-color: #e14d43;
+         -o-border-color: #e14d43;
+            border-color: #e14d43;
+}
+
+/* 16.3 Textarea
+-------------------------------------------------------------------------- */
+#contactform textarea {
+	width: 100%;
+    resize: none;
+    margin: 0 auto;
+    height: 160px !important;
+    padding: 15px 12px !important;
+}
+
+/* 16.4 Button
+-------------------------------------------------------------------------- */
+#contactform button {
+    outline: none;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 16.5 Error / Success Message
+-------------------------------------------------------------------------- */
+.form-message {
+    width: 100%;
+    color: #e14d43;
+    min-height: 28px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#name.form-error,
+#email.form-error,
+#subject.form-error,
+#message.form-error {
+    -webkit-border-color: #e14d43;
+       -moz-border-color: #e14d43;
+         -o-border-color: #e14d43;
+            border-color: #e14d43;
+}
+
+
+
+
+/* ==========================================================================
+   17. Footer Section
+========================================================================== */
+/* 17.1 Wrapper
+-------------------------------------------------------------------------- */
+#footer-section {
+    width: 100%;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+    padding: 80px 0 25px;
+    background-color: #232323;
+}
+
+/* 17.2 Logo
+-------------------------------------------------------------------------- */
+.footer-logo {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto 50px;
+}
+.footer-logo a {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.footer-logo a:hover { color: #e14d43; }
+
+/* 17.3 Social Icons
+-------------------------------------------------------------------------- */
+/* 17.3.1 Wraper
+-------------------------------------------------------------------------- */
+.social-icons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+/* 17.3.2 List
+-------------------------------------------------------------------------- */
+.social-icons li {
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+         -o-border-radius: 50px;
+            border-radius: 50px;
+}
+
+/* 17.3.3 Anchor
+-------------------------------------------------------------------------- */
+.social-icons a {
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    background-color: #303030;
+
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+         -o-border-radius: 50px;
+            border-radius: 50px;
+}
+.social-icons a i { line-height: 40px; }
+.social-icons a:hover { background-color: #2a2a2a; }
+
+/* 17.4 Copyright
+-------------------------------------------------------------------------- */
+.copyright {
+    width: 100%;
+    overflow: hidden;
+    padding: 30px 0 0;
+    margin: 25px auto 0;
+
+    -webkit-border-top: 1px solid #2a2a2a;
+       -moz-border-top: 1px solid #2a2a2a;
+         -o-border-top: 1px solid #2a2a2a;
+            border-top: 1px solid #2a2a2a;
+}
+.copyright a:hover { color: #ffffff; }
+
+
+
+
+/* ==========================================================================
+   18. Notification Message
+========================================================================== */
+.ns-box {
+    font-size: 17px;
+    font-weight: 300;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.ns-growl { max-width: 340px; }
+.ns-effect-slide { background-color: #e14d43; }
+.ns-effect-slide .ns-close::after,
+.ns-effect-slide .ns-close::before {
+    background-color: #ffffff;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.ns-box a {
+    opacity: 1;
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.ns-box a:hover { text-decoration: none; }
+.ns-growl p {
+    color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+
+
+
+/* ==========================================================================
+   19. Breadcrumb
+========================================================================== */
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: uppercase;
+    background-color: transparent;
+
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+         -o-border-radius: 0;
+            border-radius: 0;
+}
+.breadcrumb a:hover,
+.breadcrumb > .active,
+.breadcrumb > li+li:before {
+    color: #ffffff;
+}
+
+
+
+
+/* ==========================================================================
+   20. Page Content
+========================================================================== */
+/* 20.1 Wrapper
+-------------------------------------------------------------------------- */
+#page-content {
+    width: 100%;
+    overflow: hidden;
+    padding: 95px 0 50px;
+    background-color: #f5f5f5;
+}
+
+/* 20.2 Filter
+-------------------------------------------------------------------------- */
+/* 20.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.portfoliofilter {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 20.2.2 List
+-------------------------------------------------------------------------- */
+.portfoliofilter ul {
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto 60px;
+}
+
+/* 20.2.3 Items
+-------------------------------------------------------------------------- */
+.portfoliofilter ul li {
+    margin: 5px 0;
+    display: inline-block;
+}
+
+/* 20.2.4 Anchor
+-------------------------------------------------------------------------- */
+.portfoliofilter ul li a.btn {
+    color: #ffffff;
+    line-height: 26px;
+    background-color: #232323;
+}
+
+/* 20.2.5 Hover
+-------------------------------------------------------------------------- */
+.portfoliofilter ul li a.btn:hover,
+.portfoliofilter ul li a.btn.selected {
+    color: #ffffff;
+    background-color: #e14d43;
+}
+
+/* 20.3 Grid
+-------------------------------------------------------------------------- */
+/* 20.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.portfolio-grid {
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 35px;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 20.3.2 Item
+-------------------------------------------------------------------------- */
+/* 20.3.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.portfolio-grid li {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    list-style: none;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* 20.3.2.2 Container
+-------------------------------------------------------------------------- */
+.portfolio-grid .portfolio-item {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+/* 20.3.2.3 Image
+-------------------------------------------------------------------------- */
+.portfolio-grid .portfolio-item .item-image {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.portfolio-grid .portfolio-item .item-image img {
+    width: 100%;
+    display: block;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 20.3.2.4 Content
+-------------------------------------------------------------------------- */
+/* 20.3.2.4.1 Wrapper
+-------------------------------------------------------------------------- */
+.portfolio-grid .portfolio-item .item-content {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 20.3.2.4.2 Title
+-------------------------------------------------------------------------- */
+.portfolio-grid .portfolio-item h4 {
+    left: 0;
+    top: 50%;
+    z-index: 1;
+    width: 100%;
+    color: #ffffff;
+    line-height: 60px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+/* 20.3.2.4.3 Anchors
+-------------------------------------------------------------------------- */
+.portfolio-grid .portfolio-item .item-anchors {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    position: absolute;
+}
+.portfolio-grid .portfolio-item a {
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    background-color: #e14d43;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.portfolio-grid .portfolio-item a i { line-height: 50px; }
+.portfolio-grid .portfolio-item a:first-child {
+    top: 0;
+    left: 50%;
+    position: absolute;
+    margin-left: -25px;
+}
+.portfolio-grid .portfolio-item a:last-child {
+    top: 0;
+    right: 50%;
+    position: absolute;
+    margin-right: -25px;
+}
+
+/* 20.3.2.5 Hover
+-------------------------------------------------------------------------- */
+.portfolio-grid .portfolio-item:hover h4 { margin-top: -60px; }
+.portfolio-grid .portfolio-item:hover .item-content { opacity: 1; }
+.portfolio-grid .portfolio-item a:hover { background-color: #232323; }
+.portfolio-grid .portfolio-item:hover a:first-child { margin-left: -60px; }
+.portfolio-grid .portfolio-item:hover a:last-child { margin-right: -60px; }
+
+/* 20.3.3 Button
+-------------------------------------------------------------------------- */
+.more-button {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+
+
+
+/* ==========================================================================
+   21. Single Project
+========================================================================== */
+/* 21.1 Wrapper
+-------------------------------------------------------------------------- */
+.single-project #page-content { padding: 40px 0 10px; }
+
+/* 21.2 Container
+-------------------------------------------------------------------------- */
+/* 21.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.project-container {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto 30px;
+    padding: 15px 15px 0 15px;
+    background-color: #ffffff;
+
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+         -o-border-radius: 8px;
+            border-radius: 8px;
+
+    -webkit-border: 1px solid #e1e1e1;
+       -moz-border: 1px solid #e1e1e1;
+         -o-border: 1px solid #e1e1e1;
+            border: 1px solid #e1e1e1;
+}
+
+/* 21.2.2 Project Slider
+-------------------------------------------------------------------------- */
+.owl-project,
+.owl-project-image,
+.owl-project-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.owl-project-image img {
+    width: 100%;
+    display: block;
+}
+
+/* 21.2.3 Content
+-------------------------------------------------------------------------- */
+.project-content {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 10px 10px;
+}
+
+/* 21.2.4 Description
+-------------------------------------------------------------------------- */
+.project-desc {
+    width: 64%;
+    float: left;
+    overflow: hidden;
+    margin: 0 0 10px;
+    padding-right: 30px;
+}
+.project-desc p:last-child { margin-bottom: 0; }
+
+/* 21.2.5 Title
+-------------------------------------------------------------------------- */
+.project-desc-title,
+.project-detail-title {
+    width: 100%;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+
+    -webkit-border-bottom: 1px solid #e1e1e1;
+       -moz-border-bottom: 1px solid #e1e1e1;
+         -o-border-bottom: 1px solid #e1e1e1;
+            border-bottom: 1px solid #e1e1e1;
+}
+.project-desc-title span,
+.project-detail-title span {
+    margin: 0 0 -1px 0;
+    padding-bottom: 15px;
+    display: inline-block;
+
+    -webkit-border-bottom: 1px solid #232323;
+       -moz-border-bottom: 1px solid #232323;
+         -o-border-bottom: 1px solid #232323;
+            border-bottom: 1px solid #232323;
+
+}
+
+/* 21.2.6 Details
+-------------------------------------------------------------------------- */
+.project-detail {
+    width: 36%;
+    float: right;
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+.project-detail ul {
+    padding: 0;
+    list-style: none;
+    margin: 0 auto 5px;
+}
+.project-detail ul li {
+    width: 100%;
+    display: block;
+}
+.project-detail span { color: #232323; }
+
+
+/* 21.2.7 Share
+-------------------------------------------------------------------------- */
+/* 21.2.7.1 Wrapper
+-------------------------------------------------------------------------- */
+.project-share {
+    width: 100%;
+    color: #232323;
+    overflow: hidden;
+    padding: 0 0 10px;
+    line-height: 30px;
+    margin: 10px auto 0;
+}
+.project-share span {
+    float: left;
+    margin-right: 10px;
+}
+
+/* 21.2.7.2 Anchor
+-------------------------------------------------------------------------- */
+.project-share a {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+    color: #ffffff;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+         -o-border-radius: 50px;
+            border-radius: 50px;
+}
+.project-share a i { line-height: 30px; }
+.gplus { background-color: #d53824; }
+.vimeo { background-color: #4c8ab0; }
+.behance { background-color: #1769ff; }
+.twitter { background-color: #3bc1ed; }
+.youtube { background-color: #bf2f29; }
+.dribbble { background-color: #ef5a92; }
+.facebook { background-color: #4a6d9d; }
+.linkedin { background-color: #0b7bb5; }
+.pinterest { background-color: #cb1f25; }
+.instagram { background-color: #3f6f94; }
+.project-share a:hover { background-color: #232323; }
+
+
+
+
+/* ==========================================================================
+   22. Normal Blog
+========================================================================== */
+/* 22.1 Wrapper
+-------------------------------------------------------------------------- */
+.col-md-8.blog-posts {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.post-main-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 22.2 Post
+-------------------------------------------------------------------------- */
+/* 22.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.post-wrapper {
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    margin: 0 auto 72px;
+    background-color: #ffffff;
+
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+         -o-border-radius: 8px;
+            border-radius: 8px;
+
+    -webkit-border: 1px solid #e1e1e1;
+       -moz-border: 1px solid #e1e1e1;
+         -o-border: 1px solid #e1e1e1;
+            border: 1px solid #e1e1e1;
+}
+
+/* 22.2.2 Header
+-------------------------------------------------------------------------- */
+/* 22.2.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.post-wrapper .post-header {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 22.2.2.2 Image
+-------------------------------------------------------------------------- */
+.post-wrapper .post-image {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.post-wrapper .post-image a,
+.post-wrapper .post-image img {
+    width: 100%;
+    display: block;
+}
+.post-wrapper .post-image a:hover { opacity: 0.8; }
+
+/* 22.2.2.3 Frame
+-------------------------------------------------------------------------- */
+.post-header iframe {
+    -webkit-border: 0;
+       -moz-border: 0;
+         -o-border: 0;
+            border: 0;
+}
+
+/* 22.2.2.4 Post Slider
+-------------------------------------------------------------------------- */
+.owl-post,
+.owl-post-image,
+.owl-post-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.owl-post-image img {
+    width: 100%;
+    display: block;
+}
+
+/* 22.2.3 Container
+-------------------------------------------------------------------------- */
+/* 22.2.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.post-wrapper .post-container {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 10px 0;
+}
+
+/* 22.2.3.2 Title
+-------------------------------------------------------------------------- */
+.post-wrapper .post-title {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+.post-wrapper .post-title h2 { text-transform: capitalize; }
+.post-wrapper .post-title a { color: #232323; }
+.post-wrapper .post-title a:hover { color: #e14d43; }
+
+/* 22.2.3.3 Meta
+-------------------------------------------------------------------------- */
+.post-wrapper .post-meta {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+    -webkit-border-bottom: 1px solid #e1e1e1;
+       -moz-border-bottom: 1px solid #e1e1e1;
+         -o-border-bottom: 1px solid #e1e1e1;
+            border-bottom: 1px solid #e1e1e1;
+}
+.post-wrapper .post-meta span {
+    float: left;
+    margin-right: 8px;
+    position: relative;
+    display: inline-block;
+}
+.post-wrapper .post-meta span i { -webkit-font-smoothing: antialiased; }
+
+/* 22.2.3.4 Content
+-------------------------------------------------------------------------- */
+.post-wrapper .post-content {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+/* 22.2.3.5 Link
+-------------------------------------------------------------------------- */
+.post-wrapper .post-link {
+    left: 0;
+    width: 100%;
+    height: 80px;
+    bottom: -40px;
+    text-align: center;
+    position: absolute;
+}
+.post-wrapper .post-link a {
+    top: 0;
+    left: 50%;
+    content: '';
+    width: 80px;
+    height: 80px;
+    padding: 4px;
+    color: #ffffff;
+    overflow: hidden;
+    margin-left: -40px;
+    position: absolute;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+
+    -webkit-border: 1px solid #e1e1e1;
+       -moz-border: 1px solid #e1e1e1;
+         -o-border: 1px solid #e1e1e1;
+            border: 1px solid #e1e1e1;
+}
+.post-wrapper .post-link a > span {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    background-color: #e14d43;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.post-wrapper .post-link a span span {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 25px;
+    line-height: 70px;
+    position: absolute;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.post-wrapper .post-link a span.post-type { left: 0; }
+.post-wrapper .post-link a span.post-anchor { left: 100%; }
+.post-wrapper .post-link a span span:before { font-family: 'FontAwesome'; }
+.post-wrapper .post-link a span.post-anchor:before { content: '\f178'; }
+
+/* 22.2.3.6 Post Type
+-------------------------------------------------------------------------- */
+/* 22.2.3.6.1 Default
+-------------------------------------------------------------------------- */
+.default-post-type .post-link a span.post-type:before { content: '\f040'; }
+.post-wrapper.default-post-type .post-container { padding-top: 10px; }
+
+/* 22.2.3.6.2 Image
+-------------------------------------------------------------------------- */
+.image-post-type .post-link a span.post-type:before { content: '\f03e'; }
+
+/* 22.2.3.6.3 Video
+-------------------------------------------------------------------------- */
+.video-post-type .post-link a span.post-type:before { content: '\f008'; }
+
+/* 22.2.3.6.4 Slider
+-------------------------------------------------------------------------- */
+.slider-post-type .post-link a span.post-type:before { content: '\f03e'; }
+
+/* 22.2.3.7 Hover
+-------------------------------------------------------------------------- */
+.post-wrapper:hover .post-link a span.post-type { left: -100%; }
+.post-wrapper:hover .post-link a span.post-anchor { left: 0; }
+.post-wrapper a:hover > span { background-color: #232323; }
+
+
+
+
+/* ==========================================================================
+   23. Single Post
+========================================================================== */
+/* 23.1 Wrapper
+-------------------------------------------------------------------------- */
+.single-post .post-wrapper { margin-bottom: 30px; }
+.single-post .post-wrapper .post-content { margin-bottom: 0; }
+
+/* 23.2 Share
+-------------------------------------------------------------------------- */
+/* 23.2.1 Wrapper
+-------------------------------------------------------------------------- */
+.post-share {
+    width: 100%;
+    color: #232323;
+    overflow: hidden;
+    line-height: 30px;
+    margin: 0 auto 30px;
+}
+.post-share span {
+    float: left;
+    margin-right: 10px;
+}
+
+/* 23.2.2 Anchor
+-------------------------------------------------------------------------- */
+.post-share a {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+    color: #ffffff;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+         -o-border-radius: 50px;
+            border-radius: 50px;
+}
+.post-share a i { line-height: 30px; }
+.post-share a:hover { background-color: #232323; }
+
+/* 23.3 Comments
+-------------------------------------------------------------------------- */
+/* 23.3.1 Wrapper
+-------------------------------------------------------------------------- */
+.post-comments {
+    width: 100%;
+    padding: 30px;
+    overflow: hidden;
+    margin: 0 auto 30px;
+    background-color: #ffffff;
+
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+         -o-border-radius: 8px;
+            border-radius: 8px;
+
+    -webkit-border: 1px solid #e1e1e1;
+       -moz-border: 1px solid #e1e1e1;
+         -o-border: 1px solid #e1e1e1;
+            border: 1px solid #e1e1e1;
+}
+.comments {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+/* 23.3.2 List
+-------------------------------------------------------------------------- */
+.comments ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.comments ul ul { padding-left: 100px; }
+
+/* 23.3.3 Items
+-------------------------------------------------------------------------- */
+.comments ul li {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding-top: 25px;
+    margin: 20px auto 0;
+
+    -webkit-border-top: 1px solid #e1e1e1;
+       -moz-border-top: 1px solid #e1e1e1;
+         -o-border-top: 1px solid #e1e1e1;
+            border-top: 1px solid #e1e1e1;
+}
+.comments > ul > li:first-child {
+    margin: 0;
+    padding: 0;
+
+    -webkit-border: 0;
+       -moz-border: 0;
+         -o-border: 0;
+            border: 0;
+}
+
+/* 23.3.4 Avatar
+-------------------------------------------------------------------------- */
+.avatar-image {
+    float: left;
+    margin-right: 25px;
+    display: inline-block;
+}
+.avatar-image img {
+    width: 80px;
+    height: 80px;
+
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+         -o-border-radius: 50%;
+            border-radius: 50%;
+}
+.comment-container { overflow: hidden; }
+
+/* 23.3.5 Name
+-------------------------------------------------------------------------- */
+.author-name {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+    text-transform: capitalize;
+}
+.author-name span:first-child {
+    color: #e14d43;
+    font-size: 22px;
+}
+
+/* 23.3.6 Replay Button
+-------------------------------------------------------------------------- */
+.comment-button {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.comment-button a { float: right; }
+
+/* 23.4 Replay
+-------------------------------------------------------------------------- */
+.post-replay {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto 45px;
+    padding: 25px 30px 30px;
+    background-color: #ffffff;
+
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+         -o-border-radius: 8px;
+            border-radius: 8px;
+
+    -webkit-border: 1px solid #e1e1e1;
+       -moz-border: 1px solid #e1e1e1;
+         -o-border: 1px solid #e1e1e1;
+            border: 1px solid #e1e1e1;
+}
+
+/* 23.4.1 Title
+-------------------------------------------------------------------------- */
+.replay-title {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto 25px;
+}
+
+/* 23.4.2 Form Control
+-------------------------------------------------------------------------- */
+.post-replay .form-control {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    color: #232323;
+    padding: 6px 16px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+        -ms-box-shadow: none;
+         -o-box-shadow: none;
+            box-shadow: none;
+
+    -webkit-appearance: none;
+	   -moz-appearance: none;
+        -ms-appearance: none;
+         -o-appearance: none;
+            appearance: none;
+
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+         -o-border-radius: 10px;
+            border-radius: 10px;
+
+    -webkit-border: 2px solid #e1e1e1;
+       -moz-border: 2px solid #e1e1e1;
+         -o-border: 2px solid #e1e1e1;
+            border: 2px solid #e1e1e1;
+}
+.post-replay .form-control:hover,
+.post-replay .form-control:focus {
+    -webkit-border-color: #e14d43;
+       -moz-border-color: #e14d43;
+         -o-border-color: #e14d43;
+            border-color: #e14d43;
+}
+
+/* 23.4.3 Textarea
+-------------------------------------------------------------------------- */
+.post-replay textarea {
+	width: 100%;
+    resize: none;
+    margin: 0 auto;
+    height: 160px !important;
+    padding: 15px 12px !important;
+}
+
+/* 23.4.4 Button
+-------------------------------------------------------------------------- */
+.post-replay button.btn {
+    margin: 0;
+    outline: none;
+    display: block;
+}
+
+
+
+
+/* ==========================================================================
+   24. Widget
+========================================================================== */
+/* 24.1 Wrapper
+-------------------------------------------------------------------------- */
+.widget {
+    width: 250px;
+    display: block;
+    overflow: hidden;
+    padding: 0 15px 0;
+    position: relative;
+    margin: 0 auto 20px;
+}
+
+/* 24.2 Title
+-------------------------------------------------------------------------- */
+.widget-title {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto 18px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+
+    -webkit-border-bottom: 1px solid #2a2a2a;
+       -moz-border-bottom: 1px solid #2a2a2a;
+         -o-border-bottom: 1px solid #2a2a2a;
+            border-bottom: 1px solid #2a2a2a;
+}
+.widget-title h5 { color: #ffffff; }
+
+/* 24.3 Social Widget
+-------------------------------------------------------------------------- */
+/* 24.3.1 List
+-------------------------------------------------------------------------- */
+.widget-social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 24.3.2 Items
+-------------------------------------------------------------------------- */
+.widget-social ul li {
+    float: left;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    line-height: 36px;
+    margin: 0 5px 10px;
+    text-align: center;
+    display: inline-block;
+
+    -webkit-border-radius: 50px;
+       -moz-border-radius: 50px;
+         -o-border-radius: 50px;
+            border-radius: 50px;
+}
+.widget-social ul li:first-child,
+.widget-social ul li:nth-child(6n) {
+    margin-left: 0;
+}
+.widget-social ul li:nth-child(5n) { margin-right: 0; }
+.widget-social ul li:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+/* 24.3.3 Anchor
+-------------------------------------------------------------------------- */
+.widget-social ul li a {
+    display: block;
+    color: #ffffff;
+}
+.widget-social ul li a i { line-height: 36px; }
+
+/* 24.3.4 Hover
+-------------------------------------------------------------------------- */
+.widget-social ul li a:hover { background-color: #303030; }
+
+/* 24.4 Dribbble Widget
+-------------------------------------------------------------------------- */
+/* 24.4.1 Wrapper
+-------------------------------------------------------------------------- */
+.widget-dribbble { margin-bottom: 15px; }
+
+/* 24.4.2 List
+-------------------------------------------------------------------------- */
+.widget-dribbble ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+}
+
+/* 24.4.3 Items
+-------------------------------------------------------------------------- */
+.widget-dribbble ul li {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* 24.4.4 Anchor & Image
+-------------------------------------------------------------------------- */
+.widget-dribbble ul li a,
+.widget-dribbble ul li img {
+    width: 100%;
+    display: block;
+
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+         -o-border-radius: 6px;
+            border-radius: 6px;
+}
+
+/* 24.5 Flickr Widget
+-------------------------------------------------------------------------- */
+/* 24.5.1 Wrapper
+-------------------------------------------------------------------------- */
+.widget-flickr .flickr-feed {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+}
+
+/* 24.5.2 Items
+-------------------------------------------------------------------------- */
+.widget-flickr .flickr-feed li {
+    padding: 0;
+    float: left;
+    width:  66px;
+    height: 66px;
+    margin: 0 5px 10px;
+    text-align: center;
+    display: inline-block;
+
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+         -o-border-radius: 5px;
+            border-radius: 5px;
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+.widget-flickr .flickr-feed li:first-child,
+.widget-flickr .flickr-feed li:nth-child(3n+1) {
+    margin-left: 0;
+}
+.widget-flickr .flickr-feed li:nth-child(3n) { margin-right: 0; }
+
+/* 24.5.3 Anchor
+-------------------------------------------------------------------------- */
+.widget-flickr .flickr-feed li a {
+    width: 100%;
+    display: block;
+}
+
+/* 24.5.4 Image
+-------------------------------------------------------------------------- */
+.widget-flickr .flickr-feed li img {
+    width: 100%;
+    display: block;
+
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+         -o-border-radius: 5px;
+            border-radius: 5px;
+}
+
+/* 24.5.5 Anchor
+-------------------------------------------------------------------------- */
+.widget-flickr .flickr-feed li:hover { opacity: 0.7; }
+
+/* 24.6 Twitter Widget
+-------------------------------------------------------------------------- */
+/* 24.6.1 Wrapper
+-------------------------------------------------------------------------- */
+.widget-twitter .tweetfeed  { height: 100%; }
+
+/* 24.6.2 Twitter Username
+-------------------------------------------------------------------------- */
+.widget-twitter .tweetfeed ul li a i.fa-twitter {
+    float: left;
+    width: 20px;
+    height: 30px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    margin-left: -30px;
+}
+.widget-twitter .tweetfeed ul li a:hover {
+    color: #ffffff;
+
+    -webkit-transition: all 0.1s ease-in-out;
+       -moz-transition: all 0.1s ease-in-out;
+        -ms-transition: all 0.1s ease-in-out;
+         -o-transition: all 0.1s ease-in-out;
+            transition: all 0.1s ease-in-out;
+}
+
+/* 24.6.3 List
+-------------------------------------------------------------------------- */
+.widget-twitter .tweetfeed ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: 100%;
+    text-align: left;
+    list-style: none;
+    overflow: hidden;
+}
+
+/* 24.6.4 items
+-------------------------------------------------------------------------- */
+.widget-twitter .tweet span,
+.widget-twitter .tweetfeed ul li {
+    width: 100%;
+    display: block;
+    color: #e1e1e1;
+    padding: 0 0 10px 30px;
+}
+
+
+
+
+/* ==========================================================================
+   25. Boxed Version
+========================================================================== */
+/* 25.1 Wrapper
+-------------------------------------------------------------------------- */
+body.boxed-version {
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-image: url(../images/patterns/bg13.png);
+
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+body.boxed-version.image-slider #supersized {
+    left: 50%;
+    max-width: 1200px;
+    margin-left: -600px;
+}
+
+/* 25.2 Content
+-------------------------------------------------------------------------- */
+.boxed-version #content-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* 25.3 Open / Close Menu
+-------------------------------------------------------------------------- */
+body.show-menu.boxed-version { padding-left: 250px; }
+body.show-menu.boxed-version #content-wrapper { margin: 90px auto 0; }
+
+
+
+
+/* ==========================================================================
+   26. Dark Version
+========================================================================== */
+body.dark-version,
+.dark-version .post-share,
+.dark-version .project-share span {
+    color: #cccccc
+}
+
+.dark-version .btn-nesto-o:hover { color: #232323; }
+
+.dark-version h1,
+.dark-version h2,
+.dark-version h3,
+.dark-version h4,
+.dark-version h5,
+.dark-version h6,
+.dark-version a:hover,
+.dark-version .project-detail span,
+.dark-version .post-replay .form-control,
+.dark-version .pricing-table .table-icon,
+.dark-version #contactform .form-control,
+.dark-version .post-wrapper .post-title a {
+    color: #ffffff;
+}
+
+body.dark-version,
+.dark-version .post-replay,
+.dark-version .post-wrapper,
+.dark-version .post-comments,
+.dark-version .pricing-table,
+.dark-version .resume-content,
+.dark-version .project-container,
+.dark-version #menu-wrapper.menubgC,
+.dark-version .pricing-table .table-icon,
+.dark-version #contactform .form-control,
+.dark-version .post-wrapper a:hover > span {
+    background-color: #232323;
+}
+
+.dark-version .photostack,
+.dark-version #page-content,
+.dark-version #resume-section,
+.dark-version #contact-section,
+.dark-version #pricing-section,
+.dark-version #content-wrapper,
+.dark-version #services-section,
+.dark-version #portfolio-section,
+.dark-version .table-button a.btn,
+.dark-version .post-wrapper .post-link a,
+.dark-version .post-replay .form-control,
+.dark-version .pricing-table .table-price,
+.dark-version .post-replay button.btn:hover,
+.dark-version .resume-wrapper:hover .resume-type,
+.dark-version .pricing-table:hover .table-button a.btn:hover,
+.dark-version .pricing-table.feature-table .table-button a.btn:hover {
+    background-color: #2a2a2a;
+}
+
+.dark-version .post-meta,
+.dark-version .post-replay,
+.dark-version .post-wrapper,
+.dark-version .pricing-table,
+.dark-version .post-comments,
+.dark-version .comments ul li,
+.dark-version .project-container,
+.dark-version .project-desc-title,
+.dark-version .project-detail-title,
+.dark-version .project-desc-title span,
+.dark-version .project-detail-title span,
+.dark-version .post-replay .form-control,
+.dark-version .post-wrapper .post-link a {
+    -webkit-border-color: #2a2a2a;
+       -moz-border-color: #2a2a2a;
+         -o-border-color: #2a2a2a;
+            border-color: #2a2a2a;
+}
+
+
+
+
+/* ==========================================================================
+   Responsive
+========================================================================== */
+@media only screen and (max-width: 1199px) {
+
+    body.boxed-version.image-slider #supersized {
+        left: 0;
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .navbar-nav > li { padding: 0 5px; }
+
+    .section-title h1 { font-size: 55px; }
+    .col-md-6 .section-title h1 { font-size: 35px; }
+
+    .resume-date { font-size: 35px; }
+
+    .portfolio-grid { padding: 0 4px 0 5px; }
+    .portfolio-grid li { width: 33%; }
+
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 991px) {
+
+    .mobile-menu { display: block; }
+    nav.navbar-collapse.collapse { display: none !important; }
+
+    .col-md-6 .section-title h1 { text-align: center; }
+
+    .portfolio-grid { padding: 0 2px 0 4px; }
+    .portfolio-grid li { width: 33%; }
+    .portfolio-item h4 { font-size: 20px; }
+
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+
+    .container { width: 700px; }
+    .single-project .container { width: 100%; }
+
+    .navbar-header {
+        float: left;
+        display: inline-block;
+    }
+
+    .portfolio-grid { padding: 0; }
+    .portfolio-grid li { width: 50%; }
+
+    .project-desc {
+        width: 100%;
+        padding-right: 0;
+    }
+    .project-detail {
+        margin: 0;
+        width: 100%;
+    }
+
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 699px) {
+
+    .container { width: 600px; }
+
+    .personal-name h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .personal-title h4 { font-size: 20px; }
+
+    .resume-date { font-size: 25px; }
+
+    #pricing-section .col-xs-6 { width: 100%; }
+    .pricing-table { margin: 0 auto 20px; }
+
+    #contactform .form-control { margin-bottom: 20px; }
+
+    .comments ul ul { padding-left: 20px; }
+
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 599px) {
+
+    .container { width: 550px; }
+
+    #home-section-container { margin-top: 80px !important; }
+
+    .personal-title h4 { margin-bottom: 40px; }
+
+    .resume-date { font-size: 35px; }
+
+    .profile-title { display: none; }
+
+    .section-title h1 { font-size: 40px; }
+    .section-desc h3 { font-size: 22px; }
+
+    .feature-box .box-icon {
+        float: none;
+        display: block;
+        margin: 0 auto 25px;
+    }
+    .feature-box .box-title {
+        text-align: center;
+    }
+    .box-desc { text-align: center; }
+
+
+
+    #owl-skills-wrapper .owl-theme .owl-controls { display: none !important; }
+
+    #owl-portfolio-wrapper .owl-navigation { display: none !important; }
+
+    #owl-testimonials-wrapper .owl-theme .owl-controls { display: none !important; }
+
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 549px) {
+
+    .container { width: 500px; }
+
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 499px) {
+
+    .container { width: 450px; }
+
+    .personal-name h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    #newsletter-form button {
+        width: 100%;
+        display: block;
+        position: relative;
+    }
+    p.nesto-response { bottom: -40px; }
+
+    .col-xs-6 { width: 100%; }
+
+    .avatar-image { margin-bottom: 25px; }
+    .comment-container { float: left; }
+    .comments ul ul {
+        padding: 0;
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    .portfolio-grid li { width: 100%; }
+
+}
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 449px) {
+
+    .container { width: 320px; }
+
+    #home-section-container { margin-top: 200px !important; }
+
+    .resume-date { font-size: 25px; }
+
+    .single-project .container { padding: 0; }
+    .project-desc-title h4,
+    .project-detail-title h4 {
+        font-size: 20px;
+    }
+
+    .post-title h2 { font-size: 24px; }
+
+    .photostack figure {
+        width: 290px;
+        height: 290px;
+    }
+
+}
